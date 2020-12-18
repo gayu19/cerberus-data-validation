@@ -1,0 +1,27 @@
+{
+    "FirstName": {
+      "type": "string",
+      "minlength": 2,
+      "maxlength": 255,
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "minlength": 2,
+      "maxlength": 255,
+      "required": true
+    },
+    "Email": {
+        "type": "string",
+        "minlength": 2,
+        "maxlength": 255,
+        "required": true,
+        "regex": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+    },    
+    "Message": {
+        "type": "string",       
+        "required": true
+      }
+
+}
+  
